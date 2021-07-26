@@ -2,7 +2,7 @@ name: "Web"
 title: "My Website"
 description: |
   My Website
-output_dir: "."
+output_dir: "docs"
 navbar:
   right:
     - text: "Home"
