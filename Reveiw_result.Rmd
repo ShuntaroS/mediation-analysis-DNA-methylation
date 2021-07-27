@@ -1,0 +1,36 @@
+---
+title: "レビューの結果（Result）"
+description: |
+  レビューした69件の論文に関する基本的属性と曝露要因別の情報
+output: distill::distill_article
+---
+
+## 1. 基本的な属性
+レビューに使用した69件の論文について、基本的な情報をまとめると次のようになります。図と見比べながらご覧ください。
+ 
+ 
+- 87.0%が過去５年以内の出版（**図a**）
+- 研究対象地域としては、アジアが36.2%（25件）で最多（**図b**）
+- 研究対象人種としては、Caucasian/Europeanが37.7%（26件）で最多（**図c**）
+- サンプルサイズは、20〜8,720と幅広い（**図e**）
+- 対象年齢は、63.8%（44件）が成人のみであり、27.5%（19件）が母子ペア
+- DNAの抽出に関しては、全血（臍帯血含む）が85.5%（59件）で最多（**図f**）
+    
+    
+```{r fig.cap = "Graphical information for the reviewed articles. a: Published year; b: Countries; c: Ethnicities; d: Exposures; e: Sample sizes; f Tissues.", out.extra = "class=external", echo = F, layout = "l-body-outset", fig.width = 6, fig.height = 6}
+knitr::include_graphics("images/Figure4.jpg")
+```
+
+## 2. 曝露要因の属性
+レビューに使用した69件の論文で扱われた曝露要因は、次の通りでした（**図d**）
+
+- **環境化学曝露：22件（31.9%）**
+- タバコ（喫煙もしくは受動喫煙）：13件（18.8%）
+- 食事・飢餓：8件（11.6%）
+- その他の生活習慣：6件（8.7%）
+- 社会経済的な変数：2件（2.9%）
+- 遺伝的な要因：10件（14.5%）
+
+
+## 3. 各論文の詳細
+論文のTable 1をご覧ください。(リンクを貼る)

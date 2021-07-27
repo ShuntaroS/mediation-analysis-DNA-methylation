@@ -7,6 +7,11 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Review and Results"
+      href: Reveiw_result.html
+    - text: "Discussion"
+      href: Discussion.html
+    - text: "English page"
+      href: English.html
+
 output: distill::distill_article

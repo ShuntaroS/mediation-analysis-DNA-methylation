@@ -1,0 +1,71 @@
+---
+title: "Welcome for summary page"
+description: | 
+  Fujii R & Sato S, et al. DNA methylation as a mediator of associations between the environment and chronic diseases: A scoping review on application of causal mediation analysis. Epigenetics. 2021. In Press.
+author:
+  - name: "Ryosuke Fujii, Ph.D."
+    url: http://ryosukefujii.strikingly.com/
+    affiliation: Fujita Health University
+    affiliation_url: https://www.fujita-hu.ac.jp/
+    orcid_id: 0000-0003-1730-2059
+  - name: "Shuntaro Sato, Ph.D."
+    url: https://scholar.google.co.jp/citations?user=uZtTkBAAAAAJ&hl=ja
+    affiliation: Nagasaki University Hospital
+    affiliation_url: http://www.mh.nagasaki-u.ac.jp/research/
+    orcid_id: 0000-0002-6055-3649
+  - name: "Yoshiki Tsuboi, M.HSc."
+    url: https://researchmap.jp/9rnOlZGHCMExBDIo
+    affiliation: Fujita Health University
+    affiliation_url: https://www.fujita-hu.ac.jp/
+    orcid_id: 0000-0001-8145-3949
+  - name: "Andres Cardenas, Ph.D."
+    url: https://publichealth.berkeley.edu/people/andres-cardenas/
+    affiliation: University of California, Berkeley
+    affiliation_url: https://publichealth.berkeley.edu/
+    orcid_id: 0000-0003-2284-3298
+  - name: "Koji Suzuki, Ph.D."
+    url: https://researchmap.jp/lo_ol_8810-72
+    affiliation: Fujita Health University
+    affiliation_url: hhttps://www.fujita-hu.ac.jp/
+    orcid_id: 0000-0002-3235-9558
+output: distill::distill_article
+---
+
+## 1. Introduction
+Drs. Ryosuke Fujii from Fujita Health University and Shuntaro Sato from Nagasaki University Hospital conducted a scoping review for mediation analysis applying for DNA methylation. This scoping review published in *Epigenetics*, ** July 2021. The motivation was to provide a primer of mediation analysis for DNA methylation dataset. Hence, the essence of methodological aspect is also incorporated in this scoping review.
+
+### Link for our paper (Here)
+LINK
+
+## 2. Mediation analysis
+**Sato sensei ni omakasesuru**
+
+## 3. Short summary for review part
+### Background
+DNA methylation (DNAm) is one of the most studied epigenetic modifications. DNAm has emerged as a key biological mechanism and biomarkers to test associations between environmental exposure and outcomes in epidemiological studies. Although previous studies have focused on associations between DNAm and either exposure/outcomes (**Fig a**), it is useful to test for mediation of the association between exposure and outcome by DNAm (**Fig b**).
+
+```{r fig.cap = "Conceptual figure of epidemiological studies for DNA methylation a) without mediation analysis and b) with mediation analysis.", echo = F, layout = "l-body-outset", fig.width=6, fig.height=1.5}
+knitr::include_graphics("images/Figure1.jpg")
+```
+
+
+### Study Aim
+This scoping reveiw aimed 1) to introduce the essence of mediation analysis and 2) to review the study applying mediation analysis for DNA methylation data.
+
+### Method
+Based on published peer-reviewed journals using four online databases (PubMed, Scopus, Cochrane, and CINAHL) in December 2020. Of 219 extracted articles by initial screening, a total of 69 articles were eligible for this review.
+
+### Result & Discussion
+The breakdown of reviewed papers was 13 for smoking (18.8%), 8 for dietary intake and famine (11.6%), 6 for other lifestyle factors (8.7%), 8 for clinical endpoints (11.6%), 22 for environmental chemical exposures (31.9%), 2 for socioeconomic status (SES) (2.9%), and 10 for genetic factors and race (14.5%) (**Fig d**).
+
+```{r fig.cap = "Graphical information for the reviewed articles. a: Published year; b: Countries; c: Ethnicities; d: Exposures; e: Sample sizes; f Tissues.", out.extra = "class=external", echo = F, layout = "l-body-outset", fig.width = 6, fig.height = 6}
+knitr::include_graphics("images/Figure4.jpg")
+```
+
+We found heterogenous methods and interpretations in mediation analysis with typical issues such as different cell compositions and tissue-specificity.
+
+### Conclusion
+Further accumulation of evidence with diverse exposures, populations and with rigorous methodology will be expected to provide further insight in the role of DNAm in disease susceptibility.
+
+## 4. Acknowledgment
+We are grateful to Drs. Ryuji Uozumi and Shinjo Yada (Kyoto University) for their comments on this manuscript.
