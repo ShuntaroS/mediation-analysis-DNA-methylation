@@ -38,7 +38,12 @@ Drs. Ryosuke Fujii from Fujita Health University and Shuntaro Sato from Nagasaki
 LINK
 
 ## 2. Mediation analysis
-**Sato sensei ni omakasesuru**
+The motivation of statistical mediation analysis is to evaluate whether an intermediate variable is on the pathway between the exposure of interest on an outcome. In mediation analysis, the total effect, which is the effect of exposure on the outcome, is decomposed into direct and indirect effects. A **direct effect** is the effect of exposure on an outcome in causal paths without mediators. An **indirect effect** is the effect of exposure on an outcome in causal paths through mediators. Considering a quantitative decomposition of effects, this methodology is matched by statistical analysis methods to estimate the mediated effects of DNAm. This section consists of the following three parts:
+
+1. we will introduce several mediation approaches and their characteristics;
+2. we will describe the effects estimated by mediation analysis in the context of DNAm; 
+3. we will summarize mediation analysis with potential pitfalls.
+
 
 ## 3. Short summary for review part
 ### Background

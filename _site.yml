@@ -1,12 +1,14 @@
 name: "Web"
-title: "My Website"
+title: "Mediation × DNA methylation"
 description: |
   My Website
 output_dir: "docs"
 navbar:
   right:
-    - text: "Home"
+    - text: "Abstract"
       href: index.html
+    - text: "Method review of Mediation"
+      href: method.html
     - text: "Review and Results"
       href: Reveiw_result.html
     - text: "Discussion"

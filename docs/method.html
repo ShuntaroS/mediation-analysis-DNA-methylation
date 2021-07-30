@@ -85,29 +85,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Mediation × DNA methylation: レビューの結果（Result）</title>
+  <title>Mediation × DNA methylation: 媒介分析の方法レビュー</title>
 
-  <meta property="description" itemprop="description" content="レビューした69件の論文に関する基本的属性と曝露要因別の情報"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Mediation × DNA methylation: レビューの結果（Result）"/>
+  <meta property="og:title" content="Mediation × DNA methylation: 媒介分析の方法レビュー"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="レビューした69件の論文に関する基本的属性と曝露要因別の情報"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Mediation × DNA methylation"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Mediation × DNA methylation: レビューの結果（Result）"/>
-  <meta property="twitter:description" content="レビューした69件の論文に関する基本的属性と曝露要因別の情報"/>
+  <meta property="twitter:title" content="Mediation × DNA methylation: 媒介分析の方法レビュー"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["レビューの結果（Result）"]},{"type":"character","attributes":{},"value":["レビューした69件の論文に関する基本的属性と曝露要因別の情報\n"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["媒介分析の方法レビュー"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2052,7 +2049,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"レビューの結果（Result）","description":"レビューした69件の論文に関する基本的属性と曝露要因別の情報","authors":[]}
+{"title":"媒介分析の方法レビュー","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2077,45 +2074,87 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>レビューの結果（Result）</h1>
+<h1>媒介分析の方法レビュー</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>レビューした69件の論文に関する基本的属性と曝露要因別の情報</p></p>
+
 </div>
 
 
 <div class="d-article">
-<h2 id="基本的な属性">1. 基本的な属性</h2>
-<p>レビューに使用した69件の論文について、基本的な情報をまとめると次のようになります。図と見比べながらご覧ください。</p>
-<ul>
-<li>87.0%が過去５年以内の出版（<strong>図a</strong>）</li>
-<li>研究対象地域としては、アジアが36.2%（25件）で最多（<strong>図b</strong>）</li>
-<li>研究対象人種としては、Caucasian/Europeanが37.7%（26件）で最多（<strong>図c</strong>）</li>
-<li>サンプルサイズは、20〜8,720と幅広い（<strong>図e</strong>）</li>
-<li>対象年齢は、63.8%（44件）が成人のみであり、27.5%（19件）が母子ペア</li>
-<li>DNAの抽出に関しては、全血（臍帯血含む）が85.5%（59件）で最多（<strong>図f</strong>）</li>
-</ul>
-<div class="layout-chunk" data-layout="l-body-outset">
-<div class="figure"><span id="fig:unnamed-chunk-1"></span>
-<img src="images/Figure4.jpg" alt="Graphical information for the reviewed articles. a: Published year; b: Countries; c: Ethnicities; d: Exposures; e: Sample sizes; f Tissues." width="4000" class=external />
+<h2 id="媒介分析とは">媒介分析とは</h2>
+<p><strong>媒介分析</strong>は、興味のある曝露とアウトカムの間の経路上に中間変数があるかどうか評価する方法です。一般的な因果推論では、この中間変数を除いて曝露とアウトカムとの関連を推定します。ここで得られた関連の程度を平均因果効果といいますが、媒介分析の文脈では<strong>総合効果（Total effect）</strong>といいます。媒介分析ではこの総合効果を<strong>直接効果（Direct effect）</strong>と<strong>間接効果（Indirect effect）</strong>に分解します（<strong>図1</strong>）。</p>
+<p>本節は、3つの部分から構成されます。</p>
+<ol type="1">
+<li>いくつかの媒介分析の方法とそれらの特徴の紹介</li>
+<li>DNAmの文脈における因果媒介分析で推定される効果の説明</li>
+<li>潜在的な落とし穴</li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<img src="images/method_fig_1.png" alt="媒介分析における効果の分解" width="466" />
 <p class="caption">
-Figure 1: Graphical information for the reviewed articles. a: Published year; b: Countries; c: Ethnicities; d: Exposures; e: Sample sizes; f Tissues.
+Figure 1: 媒介分析における効果の分解
 </p>
 </div>
 </div>
-<h2 id="曝露要因の属性">2. 曝露要因の属性</h2>
-<p>レビューに使用した69件の論文で扱われた曝露要因は、次の通りでした（<strong>図d</strong>）</p>
-<ul>
-<li><strong>環境化学曝露：22件（31.9%）</strong></li>
-<li>タバコ（喫煙もしくは受動喫煙）：13件（18.8%）</li>
-<li>食事・飢餓：8件（11.6%）</li>
-<li>その他の生活習慣：6件（8.7%）</li>
-<li>社会経済的な変数：2件（2.9%）</li>
-<li>遺伝的な要因：10件（14.5%）</li>
-</ul>
-<h2 id="各論文の詳細">3. 各論文の詳細</h2>
-<p>論文のTable 1をご覧ください。(リンクを貼る)</p>
+<h3 id="媒介分析の方法">1. 媒介分析の方法</h3>
+<p>媒介分析は、伝統的な方法と潜在アウトカムを用いた方法（因果媒介分析）に分類されます。伝統的な方法には、差分法（Difference method）、積法（Product method）、構造方程式モデル（Structual equation model: SEM）が含まれます。<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>。これらの手法の関係と特徴を<strong>図2</strong>に示します。</p>
+<div class="layout-chunk" data-layout="l-body-outset">
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<img src="images/method_fig_2.png" alt="媒介分析の方法" width="1119" />
+<p class="caption">
+Figure 2: 媒介分析の方法
+</p>
+</div>
+</div>
+<p>伝統的な方法は、<strong>モデルベース</strong>のアプローチです <a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>。曝露、アウトカム、中間変数との関係をパラメトリックモデルで表し、推定される回帰係数を用いて直接効果と間接効果を計算します。積法はBaron and Kennyの方法と言われることもあります。また、あるモデルにおいて差分法と積法から計算できる効果は同じになります <a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>。</p>
+<p>SEMは積法を発展させた方法です。柔軟なモデリングで多くの変数間の関係を調べることができ、近年は非線形性や交互作用も扱うこともできます。ただし、これらの方法で推定される効果は、モデルによって表記が異なります。そのため、統一的に表現することが難しいです。</p>
+<p>因果媒介分析は、<strong>モデルフリー</strong>のアプローチです。潜在的な（反事実的な）アウトカムを用いた効果を拡張させたフレームワークです。このフレームワークは、研究課題を解決するための推定値を得るためのプロセスを3つに分けます。</p>
+<ol type="1">
+<li>Estimandの決定</li>
+<li>推定値から効果を識別する条件を明らかにする</li>
+<li>推定</li>
+</ol>
+<p>次の項で、このプロセスを説明しました。</p>
+<h3 id="因果媒介分析で推定される効果の説明">2. 因果媒介分析で推定される効果の説明</h3>
+<p>因果媒介分析のフレームワークでは、潜在的アウトカムフレームワークを用いて効果を定義します。伝統的な方法と同じ、直接効果と間接効果の2つの分解（これを2-way decompositionといいます。）だけではなく、さらに3つと4つの分解（それぞれ、3-way/4-way decompositionといいます。）が提案されています <a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> <a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>。論文では、Fasaneliらの例を用いて、これらの分解と解釈を説明しました <a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>。</p>
+<p>RQが「媒介効果はあるのか？　その効果はどの程度か？」という問いであるとき、直接効果と間接効果の2つに総合効果を分解するのが一般的な方法です。因果媒介分析では、それぞれを<strong>自然直接効果（NDE: Natural direct effect）</strong>と<strong>自然間接効果（NIE: Natural Indirect effect）</strong>と定義します。この自然直接効果を<strong>純粋直接効果（PDE: Pure direct effect）</strong>ともいいます。</p>
+<p>さらに、曝露と中間変数の間に交互作用があると考えることができます。このとき、総合効果は3つまたは4つに分解することができます。<strong>制御された直接効果（CDE: Controlled direct effect）</strong>、<strong>参照交互作用（INTref: Reference interaction）</strong>、<strong>媒介交互作用（INTmed: Mediated interaction）</strong>、<strong>純粋間接効果（PIE: Pure indirect effect）</strong>です <a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>。これらの関係と簡単な解釈を<strong>図3</strong>に示します。</p>
+<div class="layout-chunk" data-layout="l-body-outset">
+<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
+<img src="images/method_fig_3.png" alt="効果の関係と解釈" width="1077" />
+<p class="caption">
+Figure 3: 効果の関係と解釈
+</p>
+</div>
+</div>
+<p>また、Inoueらは、これらの4つの効果の直感的な解釈を示すためのDAGを提案しました<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>。</p>
+<p>実践的な疫学研究では、効果を計算することが重要です。2021/8/1の時点で、Rは<a href="https://cran.r-project.org/web/packages/mediation/vignettes/mediation.pdf"><strong>mediation package</strong></a>と<a href="https://bs1125.github.io/CMAverse/index.html"><strong>CMAverse package</strong></a>を用いて効果を計算することができます。SASでは<a href="https://support.sas.com/rnd/app/stat/procedures/causalmed.html"><strong>CAUSALMEDプロシジャ</strong></a>で計算が可能です。</p>
+<h3 id="潜在的な落とし穴">3. 潜在的な落とし穴</h3>
+<h4 id="因果効果の識別性の確認">(1) 因果効果の識別性の確認</h4>
+<p>一般的な因果推論と同様に、推定値を効果と解釈するためには識別性の仮定が必要です。特に重要な仮定は条件付き交換可能性です。従来の因果推論は、曝露とアウトカム変数を軸に考えますが、媒介分析では中間変数も加わります。そのため仮定はより厳しくなります。この仮定を評価するための感度分析がいくつか提案されています　<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> <a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>。</p>
+<h4 id="総合効果を直接効果と間接効果の2つに分解する場合媒介交互作用はどちらの効果に含めるか">(2) 総合効果を直接効果と間接効果の2つに分解する場合、媒介交互作用はどちらの効果に含めるか？</h4>
+<p>RQが「媒介効果があるか？」である場合、媒介交互作用は純粋間接効果と組み合わせるのが好ましいようです。一方、RQが「媒介効果に加えて、直接効果があるか？」である場合は、媒介効果は純粋直接効果と組み合わせるのが好ましいようです。</p>
+<h4 id="論文にモデルを明記しよう">(3) 論文にモデルを明記しよう</h4>
+<p>媒介分析に用いたモデルを論文に明記することは、読者は分解や解釈が適切かどうか検討するに役立ちます。</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Robins JM, Greenland S. Identifiability and exchangeability for direct and indirect effects. Epidemiology. 1992;3:143–55.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2" role="doc-endnote"><p>Pearl J. Direct and Indirect Effects. Proceedings of the Seventeenth Conference on Uncertainty and Artificial Intelligence. 2013;411–20.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3" role="doc-endnote"><p>Nguyen TQ, Schmid I, Stuart EA. Clarifying causal mediation analysis for the applied researcher: Defining effects based on what we want to learn. Psychol Methods [Internet]. 2020 Jul 16; Available from: <a href="http://dx.doi.org/10.1037/met0000299" class="uri">http://dx.doi.org/10.1037/met0000299</a><a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4" role="doc-endnote"><p>Timothy L Lash, Tyler J VanderWeele, Sebastien Haneuse, Kenneth J Rothman. Modern Epidemiology, 4th edition. Wolters Kluwer; 2021.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5" role="doc-endnote"><p>VanderWeele TJ. A three-way decomposition of a total effect into direct, indirect, and interactive effects. Epidemiology. 2013;24:224–32.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6" role="doc-endnote"><p>VanderWeele TJ. A unification of mediation and interaction: a 4-way decomposition. Epidemiology. 2014;25:749–61.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7" role="doc-endnote"><p>Fasanelli F, Baglietto L, Ponzi E, Guida F, Campanella G, Johansson M, et al. Hypomethylation of smoking-related genes is associated with future lung cancer in four prospective cohorts. Nat Commun. 2015;6:10192.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8" role="doc-endnote"><p>これらの分解用の解釈や数式の理解には、『ロスマンの疫学』が参考になります。<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9" role="doc-endnote"><p>Inoue K, Yan Q, Arah OA, Paul K, Walker DI, Jones DP, et al. Air Pollution and Adverse Pregnancy and Birth Outcomes: Mediation Analysis Using Metabolomic Profiles. Current Environmental Health Reports [Internet]. 2020 Aug 8; Available from: <a href="https://doi.org/10.1007/s40572-020-00284-3" class="uri">https://doi.org/10.1007/s40572-020-00284-3</a><a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10" role="doc-endnote"><p>Imai K, Keele L, Tingley D, Yamamoto T. Unpacking the Black Box of Causality: Learning about Causal Mechanisms from Experimental and Observational Studies. Am Polit Sci Rev. 2011;105:765–89.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11" role="doc-endnote"><p>VanderWeele TJ. Bias formulas for sensitivity analysis for direct and indirect effects. Epidemiology. 2010;21:540–51.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
