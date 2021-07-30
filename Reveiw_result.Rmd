@@ -18,7 +18,7 @@ output: distill::distill_article
     
     
 ```{r fig.cap = "Graphical information for the reviewed articles. a: Published year; b: Countries; c: Ethnicities; d: Exposures; e: Sample sizes; f Tissues.", out.extra = "class=external", echo = F, layout = "l-body-outset", fig.width = 6, fig.height = 6}
-knitr::include_graphics("images/Figure4.jpg")
+knitr::include_graphics("images/Figure4.png")
 ```
 
 ## 2. 曝露要因の属性

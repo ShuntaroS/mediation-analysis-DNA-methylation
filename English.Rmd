@@ -64,7 +64,7 @@ Based on published peer-reviewed journals using four online databases (PubMed, S
 The breakdown of reviewed papers was 13 for smoking (18.8%), 8 for dietary intake and famine (11.6%), 6 for other lifestyle factors (8.7%), 8 for clinical endpoints (11.6%), 22 for environmental chemical exposures (31.9%), 2 for socioeconomic status (SES) (2.9%), and 10 for genetic factors and race (14.5%) (**Fig d**).
 
 ```{r fig.cap = "Graphical information for the reviewed articles. a: Published year; b: Countries; c: Ethnicities; d: Exposures; e: Sample sizes; f Tissues.", out.extra = "class=external", echo = F, layout = "l-body-outset", fig.width = 6, fig.height = 6}
-knitr::include_graphics("images/Figure4.jpg")
+knitr::include_graphics("images/Figure4.png")
 ```
 
 We found heterogenous methods and interpretations in mediation analysis with typical issues such as different cell compositions and tissue-specificity.
