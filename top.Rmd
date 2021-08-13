@@ -32,8 +32,6 @@ output: distill::distill_article
 ## このページについて
 藤田医科大学医療科学部の藤井亮輔、長崎大学病院臨床研究センターの佐藤俊太朗らはDNAのメチル化を媒介変数とする媒介分析を活用した疫学研究のレビューを行いました。このページは、研究の動機、媒介分析のエッセンス、レビューの結果を解説するページです。
 
-## English here
-Link
+## English summary [**HERE**](https://shuntaros.github.io/mediation-analysis-DNA-methylation/English.html)
 
-## 論文はこちら
-Link
+## 論文は[**こちら**](https://doi.org/10.1080/15592294.2021.1959736)

@@ -1,7 +1,7 @@
 ---
 title: "DNAメチル化を媒介変数とした曝露要因と結果変数との関連解析のスコーピングレビュー"
 description: | 
-  Fujii R & Sato S, et al. Epigenetics. 2021. In Press.
+  Fujii R & Sato S, et al. Epigenetics. 2021. Published online.
 author:
   - name: "藤井 亮輔"
     url: http://ryosukefujii.strikingly.com/
@@ -35,8 +35,7 @@ output: distill::distill_article
 藤田医科大学医療科学部の藤井亮輔、長崎大学病院臨床研究センターの佐藤俊太朗らはDNAのメチル化を媒介変数とする媒介分析を活用した疫学研究のレビューを行いました。この論文では、分子疫学研究における媒介分析の実践に向けたPrimerとなるようなレビューを心がけ、方法論の解説も合わせて執筆しました。
 このページ自体は、論文の内容（執筆の動機や媒介分析のエッセンス、レビューの結果）を解説するページです。
 
-### 論文のURLはこちらです
-LINK
+### 論文のURLは[**こちら**](https://doi.org/10.1080/15592294.2021.1959736)です。
 
 ## 2. 論文のサマリー
 ### 背景
@@ -66,4 +65,4 @@ DNAメチル化の解析では、細胞組成の違いや組織特異性など�
 京都大学大学院医学研究科・魚住龍史講師および矢田真城助教からは、本原稿に関するご助言を頂きました。この場を借りて深く感謝を示します。
 
 ## 4. English link
-Link
+English summary is available [**HERE**](https://shuntaros.github.io/mediation-analysis-DNA-methylation/English.html)
